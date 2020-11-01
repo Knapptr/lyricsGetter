@@ -1,0 +1,20 @@
+{
+  "name": "dmb_v_p_script",
+  "version": "1.0.0",
+  "description": "Populate data for a 'dave matthews' or 'phish' guessing game, inspired by MBMBAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MBMBAM",
+    "script",
+    "node"
+  ],
+  "author": "Tyler Knapp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  }
+}

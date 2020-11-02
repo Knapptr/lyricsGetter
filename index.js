@@ -75,7 +75,7 @@ async function getLyrics(array) {
         return {
           artist: artistNameArg,
           trackName: trackEntry.trackName,
-          trackId: trackEntry.trackId
+          trackId: trackEntry.trackId,
           lyrics: response.data.message.body.lyrics.lyrics_body,
         };
       })

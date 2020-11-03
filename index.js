@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 const axios = require("axios");
 const totalPages = process.argv.slice(2)[0];
-const artistNameArg = process.argv.slice(2)[1];
+const artistNameArg = encodeURIComponent(process.argv.slice(2)[1]);
 const artistIDArg = process.argv.slice(2)[2];
 
 ///api values
